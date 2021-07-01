@@ -1,0 +1,31 @@
+
+entity Voiture {
+  typeVehicule String
+  marque String
+  modele String
+  usage String
+  typecarburant String
+  matricule String
+  matriculeww Integer
+  nChassi Integer
+  capacite Integer
+  division String
+  puissancefiscal Integer
+  datemiscirculation LocalDate
+  dateacquisition LocalDate
+  affectationdivision Integer
+  affectationService Integer
+  beneficiaire Integer
+  kilometrage Integer
+  pieceJointe Blob
+  status String
+
+}
+
+
+
+
+paginate Voiture  with pagination
+
+service * with serviceClass
+microservice * with voiture

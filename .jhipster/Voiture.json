@@ -1,0 +1,95 @@
+{
+  "name": "Voiture",
+  "fields": [
+    {
+      "fieldName": "typeVehicule",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "marque",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "modele",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "usage",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "typecarburant",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "matricule",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "matriculeww",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "nChassi",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "capacite",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "division",
+      "fieldType": "String"
+    },
+    {
+      "fieldName": "puissancefiscal",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "datemiscirculation",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "dateacquisition",
+      "fieldType": "LocalDate"
+    },
+    {
+      "fieldName": "affectationdivision",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "affectationService",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "beneficiaire",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "kilometrage",
+      "fieldType": "Integer"
+    },
+    {
+      "fieldName": "pieceJointe",
+      "fieldType": "byte[]",
+      "fieldTypeBlobContent": "any"
+    },
+    {
+      "fieldName": "status",
+      "fieldType": "String"
+    }
+  ],
+  "relationships": [],
+  "changelogDate": "20210621152744",
+  "entityTableName": "voiture",
+  "dto": "no",
+  "pagination": "pagination",
+  "service": "serviceClass",
+  "jpaMetamodelFiltering": false,
+  "fluentMethods": true,
+  "readOnly": false,
+  "embedded": false,
+  "clientRootFolder": "voiture",
+  "applications": "*",
+  "microserviceName": "voiture"
+}
